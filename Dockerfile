@@ -1,7 +1,7 @@
 FROM binwiederhier/ntfy:latest
 
 # Set maintainer info
-LABEL maintainer="barsamms@gmail.com"
+LABEL maintainer="tuyishimireemmanuel24@gmail.com @gmail.com"
 LABEL description="Custom ntfy server with bundled configuration"
 LABEL version="1.0"
 
