@@ -9,7 +9,7 @@ services:
     container_name: ntfy
     restart: unless-stopped
     ports:
-      - "8080:80"
+      - "8091:80"
     environment:
       - NTFY_CACHE_FILE=/var/cache/ntfy/cache.db
       - NTFY_AUTH_FILE=/var/lib/ntfy/auth.db
